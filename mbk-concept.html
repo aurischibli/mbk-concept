@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run a Business You Actually Enjoy | My Business Keeper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Poppins font globally */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        /* Custom Colors - Updated to Red Theme */
+        .bg-brand-dark-teal { background-color: #00334e; } /* Keeping dark teal for contrast */
+        .text-brand-dark-teal { color: #00334e; }
+        .border-brand-dark-teal { border-color: #00334e; }
+        .bg-brand-red { background-color: #DC2626; } /* Main Red (Tailwind red-600) */
+        .text-brand-red { color: #DC2626; }
+        .border-brand-red { border-color: #DC2626; }
+        .hover\:bg-brand-red-dark:hover { background-color: #B91C1C; } /* Darker Red for hover (Tailwind red-700) */
+        .bg-brand-light-gray { background-color: #f8f9fa; }
+        .text-brand-gold { color: #f0ad4e; } /* Example accent - kept */
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Simple underline animation for nav links (Updated to Red) */
+        .nav-link {
+            position: relative;
+            text-decoration: none;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            display: block;
+            margin-top: 5px;
+            right: 0;
+            background: #DC2626; /* Red color */
+            transition: width 0.3s ease;
+            -webkit-transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+            left: 0;
+            background-color: #DC2626; /* Red color */
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 antialiased">
+
+    <header class="bg-brand-dark-teal text-white py-16 md:py-24">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">Run a Business You Actually Enjoy</h1>
+            <p class="text-xl md:text-2xl font-light mb-8">
+                <strong>Clarity, confidence, and compliance — without the stress.</strong><br>
+                We help small business owners take control of their books, team, and direction so they can grow on purpose.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#health-check" class="bg-brand-red hover:bg-brand-red-dark text-white font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out text-lg">
+                    Get a Free Business Health Check
+                </a>
+                <a href="#contact" class="bg-white text-brand-dark-teal hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out text-lg border border-brand-dark-teal">
+                    Book a Discovery Call
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="py-16 bg-brand-light-gray">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark-teal mb-6">You Started a Business for Freedom — Not to Drown in Paperwork</h2>
+                <p class="text-lg text-gray-700 mb-8">But now you’re stuck:</p>
+                <ul class="space-y-4 text-left inline-block">
+                    <li class="flex items-start text-lg"><span class="text-red-500 mr-3 text-2xl">📉</span> Unsure if your books are right</li>
+                    <li class="flex items-start text-lg"><span class="text-red-500 mr-3 text-2xl">📅</span> Dreading BAS or tax time</li>
+                    <li class="flex items-start text-lg"><span class="text-red-500 mr-3 text-2xl">😓</span> Winging it with staff and compliance</li>
+                    <li class="flex items-start text-lg"><span class="text-red-500 mr-3 text-2xl">🔄</span> Stuck doing <em>everything</em> yourself</li>
+                </ul>
+                <p class="text-lg text-gray-700 mt-8">You're not alone — and you don't have to figure it out alone.</p>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="container mx-auto px-6 max-w-4xl text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold text-brand-dark-teal mb-6">Meet Your Business Keeper</h2>
+                 <p class="text-lg text-gray-700 mb-8">Think of us like a GP for your business — we diagnose the real problems, start where the pain is loudest, and build from there.</p>
+                 <p class="text-lg text-gray-700 mb-4">We don’t just “do the books.” We empower business owners to:</p>
+                 <ul class="space-y-3 text-left inline-block list-none">
+                    <li class="flex items-center text-lg"><svg class="w-5 h-5 text-brand-red mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Get their finances in order</li>
+                    <li class="flex items-center text-lg"><svg class="w-5 h-5 text-brand-red mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Build strong, compliant teams</li>
+                    <li class="flex items-center text-lg"><svg class="w-5 h-5 text-brand-red mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Make confident, strategic decisions</li>
+                    <li class="flex items-center text-lg"><svg class="w-5 h-5 text-brand-red mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> Reconnect with the reason they started in the first place</li>
+                 </ul>
+            </div>
+        </section>
+
+        <section class="py-16 bg-brand-light-gray">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark-teal mb-10 text-center">What We Do</h2>
+                <p class="text-lg text-gray-700 mb-12 text-center max-w-3xl mx-auto">We start with the numbers — but we don’t stop there.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center border-t-4 border-brand-red">
+                        <div class="text-4xl mb-4">📈</div>
+                        <h3 class="text-xl font-semibold text-brand-dark-teal mb-2">Financial Systems</h3>
+                        <p class="text-gray-600">Bookkeeping, BAS, Payroll, Tax Returns — done right, with clarity and consistency.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center border-t-4 border-brand-red">
+                        <div class="text-4xl mb-4">💼</div>
+                        <h3 class="text-xl font-semibold text-brand-dark-teal mb-2">People & HR</h3>
+                        <p class="text-gray-600">Contracts, policies, performance support — and confidence navigating Fair Work.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center border-t-4 border-brand-red">
+                        <div class="text-4xl mb-4">🧭</div>
+                        <h3 class="text-xl font-semibold text-brand-dark-teal mb-2">Business Advisory</h3>
+                        <p class="text-gray-600">Cash flow planning, budgeting tools, and decision-making support from someone who *gets it*.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center border-t-4 border-brand-red">
+                        <div class="text-4xl mb-4">🧠</div>
+                        <h3 class="text-xl font-semibold text-brand-dark-teal mb-2">Education & Training</h3>
+                        <p class="text-gray-600">Join our 10-week “Business on Purpose” course to gain leadership clarity and real business skills.</p>
+                    </div>
+                </div>
+                 <div class="text-center mt-12">
+                     <a href="#services" class="bg-brand-red hover:bg-brand-red-dark text-white font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out text-lg">
+                         See All Services
+                     </a>
+                 </div>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark-teal mb-12">How It Works</h2>
+                <div class="flex flex-col md:flex-row justify-center items-start md:space-x-8 space-y-8 md:space-y-0 max-w-5xl mx-auto">
+                    <div class="flex-1 text-center">
+                        <div class="bg-brand-red text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4 shadow-md">1</div>
+                        <h3 class="text-xl font-semibold text-brand-dark-teal mb-2">Get a Free Health Check</h3>
+                        <p class="text-gray-700">We'll review your BAS, books, or operations — and show you exactly where things need attention.</p>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <div class="bg-brand-red text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4 shadow-md">2</div>
+                        <h3 class="text-xl font-semibold text-brand-dark-teal mb-2">Prioritise What Matters</h3>
+                        <p class="text-gray-700">Choose your first step forward — we’ll help you tackle compliance, cash flow, or clarity first.</p>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <div class="bg-brand-red text-white rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4 shadow-md">3</div>
+                        <h3 class="text-xl font-semibold text-brand-dark-teal mb-2">Build a Business You Love</h3>
+                        <p class="text-gray-700">With consistent support and practical advice, we help you scale without losing your sanity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-brand-dark-teal text-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center">What Our Clients Say</h2>
+                <div class="space-y-8">
+                    <blockquote class="bg-white bg-opacity-10 p-6 rounded-lg border-l-4 border-brand-red">
+                        <p class="text-lg italic mb-4">“Before MBK, I didn’t know where my money was going. Now I sleep better, my team is humming, and I’m actually *excited* about the future.”</p>
+                        <footer class="text-right font-medium">— Sarah J, Business Owner</footer>
+                    </blockquote>
+                    <blockquote class="bg-white bg-opacity-10 p-6 rounded-lg border-l-4 border-brand-red">
+                        <p class="text-lg italic mb-4">“I used to dread tax time. Now I’ve got a clear roadmap and someone I trust guiding the way.”</p>
+                        <footer class="text-right font-medium">— David K, Construction Services</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="health-check" class="py-16 bg-brand-light-gray">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark-teal mb-10 text-center">Choose Your Starting Point</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-200 flex flex-col">
+                        <h3 class="text-2xl font-semibold text-brand-dark-teal mb-4 flex items-center"><span class="text-3xl mr-3">📋</span> Free Business Health Check</h3>
+                        <p class="text-gray-700 mb-4 flex-grow">We’ll review your last 3 BAS lodgements, check for compliance gaps, and give you a traffic-light action plan.</p>
+                        <p class="text-green-600 font-medium mb-6 flex items-center"><svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> No pressure. Just practical advice.</p>
+                        <a href="#contact" class="mt-auto bg-brand-red hover:bg-brand-red-dark text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out text-center">
+                            Get My Free Check
+                        </a>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-200 flex flex-col">
+                        <h3 class="text-2xl font-semibold text-brand-dark-teal mb-4 flex items-center"><span class="text-3xl mr-3">🧮</span> Tax Clarity Call + Summary</h3>
+                        <p class="text-gray-700 mb-4 flex-grow">A short, jargon-free call to understand your tax position and reduce stress. Includes a summary you can keep (and $100 off your return if you lodge with us).</p>
+                        <a href="#contact" class="mt-auto bg-brand-red hover:bg-brand-red-dark text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out text-center">
+                            Book a Call
+                        </a>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg border border-gray-200 flex flex-col">
+                        <h3 class="text-2xl font-semibold text-brand-dark-teal mb-4 flex items-center"><span class="text-3xl mr-3">🧠</span> Business on Purpose: 10-Week Course</h3>
+                        <p class="text-gray-700 mb-4 flex-grow">If you feel stuck, scattered, or like you’re making it up as you go — this course is for you. Learn how to lead your business with purpose, confidence, and clear systems.</p>
+                        <a href="#contact" class="mt-auto bg-brand-red hover:bg-brand-red-dark text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out text-center">
+                            Join the Next Cohort
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark-teal mb-6">Why We Exist</h2>
+                <p class="text-lg text-gray-700 mb-8">We believe small businesses should be more than just functional — they should be fulfilling.</p>
+                <p class="text-lg text-gray-700 mb-8">At MBK, we help business owners love their work again by embedding <strong>clarity, confidence, and compliance</strong> into every part of their business.</p>
+                <p class="text-lg text-gray-700 mb-10">You're not just a number here. You're a business with heart — and we're here to help it beat stronger.</p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                     <a href="#team" class="bg-white text-brand-dark-teal hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out text-lg border border-brand-dark-teal">
+                        Meet the Team
+                    </a>
+                    <a href="#philosophy" class="bg-white text-brand-dark-teal hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out text-lg border border-brand-dark-teal">
+                        Learn About Our Philosophy
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 bg-brand-red text-white"> <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Ready to Feel in Control Again?</h2>
+                <p class="text-xl mb-8">Stop guessing. Start building with clarity.<br>We’ll guide the way — you just have to take the first step.</p>
+                <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#health-check" class="bg-white text-brand-red hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out text-lg">
+                        Claim Your Free Health Check
+                    </a>
+                    <a href="#contact-form" class="bg-brand-dark-teal hover:bg-opacity-80 text-white font-semibold py-3 px-8 rounded-lg shadow-md transition duration-300 ease-in-out text-lg border border-white">
+                        Book a Discovery Call
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-dark-teal text-gray-300 py-12">
+        <div class="container mx-auto px-6 text-center md:text-left">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-3">Contact Us</h4>
+                    <p class="mb-1">📍 Based in NSW, working Australia-wide</p>
+                    <p class="mb-1">📧 <a href="mailto:admin@mybusinesskeeper.com.au" class="hover:text-brand-red transition duration-300">admin@mybusinesskeeper.com.au</a></p>
+                    <p class="mb-1">☎️ <a href="tel:0263616364" class="hover:text-brand-red transition duration-300">(02) 6361 6364</a></p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-3">Legal</h4>
+                    <p class="text-sm mb-1">ABN 92 907 351 967</p>
+                    <p class="text-sm mb-1">Tax Agent No. 26231740</p>
+                    <p class="text-sm mb-1">BAS Agent No. 26046529</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold text-white mb-3">Quick Links</h4>
+                    <ul class="space-y-1">
+                        <li><a href="#terms" class="hover:text-brand-red transition duration-300">Terms & Conditions</a></li>
+                        <li><a href="#privacy" class="hover:text-brand-red transition duration-300">Privacy Policy</a></li>
+                        <li><a href="#social" class="hover:text-brand-red transition duration-300">Social Links</a></li>
+                         <li><a href="#" class="hover:text-brand-red transition duration-300">Back to Top ↑</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 text-center text-sm">
+                &copy; 2024 My Business Keeper. All rights reserved. Website by AI.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
